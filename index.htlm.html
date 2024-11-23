@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- script de A-Frame version 1.0.0 -->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <!-- script de AR.js con soporte de marker + location -->
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+<body style="margin: 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+        <a-entity scale=".3 .3 .3">
+            <a-entity gtlf-model="gato.gbl" scale="3 3 3"crossOriging="anonymus">
+        <a-entity>
+        </a-marker-camera preset='hiro'></a-marker-camera>
+    </a-scene>
+</body>
+</html>
